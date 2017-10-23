@@ -39,7 +39,7 @@ module.exports = function(app, req) {
     let filteredList = [];
     var temp = [];
     // Filter of component type if it is requested for
-    if(componentTypesFilter) {
+    if(componentTypesFilter.length > 0) {
        _.each(modifiedList, (item) => {
             _.each(componentTypesFilter, (obj) => {
                 if(obj === item.componentType) {
