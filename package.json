@@ -1,0 +1,27 @@
+{
+  "name": "express-node-seed",
+  "version": "1.0.0",
+  "description": "seed project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritwbanerjee/node-express-seed.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritwbanerjee/node-express-seed/issues"
+  },
+  "homepage": "https://github.com/ritwbanerjee/node-express-seed#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.10",
+    "nodemon": "^1.12.1",
+    "path": "^0.12.7"
+  }
+}
