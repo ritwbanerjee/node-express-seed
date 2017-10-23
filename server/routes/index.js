@@ -5,7 +5,7 @@ module.exports = function(app) {
     app.post('/getSearchData', (req, res) => {
         const data= require('../controller/getSearchData')(app, req);
         res.send({
-            "searchResultsData": data,
+            "searchResultData": data,
             "totalNumberOfHits": data.length
         });
     });
