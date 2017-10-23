@@ -4,7 +4,10 @@ module.exports = function(app) {
 
     app.post('/getSearchData', (req, res) => {
         const data= require('../controller/getSearchData')(app, req);
-        res.send(data);
+        res.send({
+            "searchResultsData": data,
+            "totalNumberOfHits": data.length
+        });
     });
 
     app.post('/getSearchFeedBack', (req, res) => {
