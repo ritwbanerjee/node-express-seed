@@ -1,5 +1,80 @@
 {
     "top_trendingObject": {
         "title": "Showcased components"
-    }
+    },
+    "cardDetails": [{
+        "componentIdentifier": "ActivateBusinessNetworkServices",
+        "componentType": "API",
+        "subComponentType": "M2EE",
+        "status": "Development",
+        "sourceCatalog": "API360",
+        "functionalTags": ["Activate", "Self", "Install, Order", "TNs", "Provisioning & Configuration"],
+        "dateCreated": "6/9/2016",
+        "dateUpdated": "7/12/2017",
+        "businessDescription": "ActivateBusinessNetworkServices will be used send a request to initiate activation of business services",
+        "ratingScore": 5.0,
+        "numberOfRatings": 2,
+        "componentOwneruid": "us6030",
+        "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d"
+    },
+    {
+        "componentIdentifier": "ActivateBusinessNetworkServices",
+        "componentType": "API6",
+        "subComponentType": "M2E",
+        "status": "Development",
+        "sourceCatalog": "API360",
+        "functionalTags": ["Activate", "Self", "Install, Order", "TNs", "Provisioning & Configuration"],
+        "dateCreated": "6/9/2016",
+        "dateUpdated": null,
+        "businessDescription": "ActivateBusinessNetworkServices will be used send a request to initiate activation of business services",
+        "ratingScore": 1.0,
+        "numberOfRatings": 2,
+        "componentOwneruid": "us6030",
+        "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d"
+    },
+    {
+        "componentIdentifier": "ActivateBusinessNetworkServices",
+        "componentType": "API8",
+        "subComponentType": "M2E",
+        "status": null,
+        "sourceCatalog": "API360",
+        "functionalTags": ["Activate", "Self", "Install, Order", "TNs", "Provisioning & Configuration"],
+        "dateCreated": "6/9/2016",
+        "dateUpdated": "7/12/2017",
+        "businessDescription": "ActivateBusinessNetworkServices will be used send a request to initiate activation of business services",
+        "ratingScore": 5.0,
+        "numberOfRatings": 2,
+        "componentOwneruid": "us6030",
+        "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d"
+    },
+    {
+        "componentIdentifier": "ActivateBusinessNetworkServices",
+        "componentType": "API2",
+        "subComponentType": "M2E",
+        "status": "Development",
+        "sourceCatalog": "API360",
+        "functionalTags": ["Activate", "Self", "Install, Order", "TNs", "Provisioning & Configuration"],
+        "dateCreated": "6/9/2016",
+        "dateUpdated": "7/12/2017",
+        "businessDescription": "ActivateBusinessNetworkServices will be used send a request to initiate activation of business services",
+        "ratingScore": 5.0,
+        "numberOfRatings": 2,
+        "componentOwneruid": "us6030",
+        "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d"
+    },
+    {
+        "componentIdentifier": "ActivateBusinessNetworkServices",
+        "componentType": "API",
+        "subComponentType": "M2E",
+        "status": "Development",
+        "sourceCatalog": "API360",
+        "functionalTags": ["Activate", "Self", "Install, Order", "TNs", "Provisioning & Configuration"],
+        "dateCreated": "6/9/2016",
+        "dateUpdated": "7/12/2017",
+        "businessDescription": "ActivateBusinessNetworkServices will be used send a request to initiate activation of business services",
+        "ratingScore": 5.0,
+        "numberOfRatings": 2,
+        "componentOwneruid": "us6030",
+        "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d"
+    }]
 }

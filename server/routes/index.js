@@ -15,4 +15,14 @@ module.exports = function(app) {
             "status": 200
         })
     });
+
+    app.get('/getTopTrending', (req, res) => {
+        const data = require('../../mock-data/top-trending.json');
+        res.send(data);
+    })
+
+    app.get('/getRecentViewed', (req, res) => {
+        const data = require('../../mock-data/recent-viewed.json');
+        res.send(data);
+    })
 }
