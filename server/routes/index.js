@@ -16,6 +16,10 @@ module.exports = function(app) {
         })
     });
 
+    app.post('/getComponentDetails', (req, res) => {
+        res.send(require('../../mock-data/componentDetails.json'));
+    });
+
     app.get('/getTopTrending', (req, res) => {
         const data = require('../../mock-data/top-trending.json');
         res.send(data);

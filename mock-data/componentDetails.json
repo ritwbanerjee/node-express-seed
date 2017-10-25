@@ -1,0 +1,68 @@
+{
+    "componentIdentifier": "ABC",
+    "componentId": 1234,
+    "componentType": "Microservices",
+    "subComponentType": "M2E",
+    "sourceCatalog": "API360",
+    "ratingScore": 5.0,
+    "numberOfRatings": 12,
+    "numberOfUserReviews": 16,
+    "reviews": {
+      "ratingScore": 5.0,
+      "numberOfRatings": 12,
+      "numberOfUserReviews": 4,
+      "userReviews": [{
+        "ratingScore": 4.0,
+        "ratingBy": "John Doe",
+        "ratingDate": "August 24, 2017",
+        "ratingDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. "
+      },{
+        "ratingScore": 3.0,
+        "ratingBy": "Jane Doe",
+        "ratingDate": "Septembet 13, 2017",
+        "ratingDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. "
+      },{
+        "ratingScore": 3.0,
+        "ratingBy": "Dwane John",
+        "ratingDate": "September 16, 2017",
+        "ratingDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. "
+      },{
+        "ratingScore": 2.5,
+        "ratingBy": "Shawn Paul",
+        "ratingDate": "September 20, 2017",
+        "ratingDetails": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. "
+      }]
+    },
+    "status": "Ready For Development",
+    "license": "v 200.0.10-Development 200.0.10-QC 200.0.5-PROD",
+    "dateUpdated": "March 15, 2017",
+    "dateCreated": "December 09, 2016",
+    "accessDetails": "http://acr.it.att.com:8080/soa/web/service-catalog/artifact/1e7f3f31-b290-41ab-8e45-f3c5721a826d",
+    "functionalTags": ["Lorem Ipsum", "Dolor Sit", "Amet", "Consection", "Lorem Ipsum Dolor Sir Amet Consection"],
+    "businessDescription": "Some things are better not told. Just feel the pain of developing without any environments and you will grow in life",
+    "technicalDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien",
+    "functionalDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien",
+    "restrictionsDependencies": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien",
+    "componentOwner": {
+      "componentOwnerUid": "Kd4510e",
+      "componentOwnerName": "John Doe"
+    },
+    "pointOfContact": {
+      "pocUid": "Jh6239a",
+      "pocName": "Mari Jane"
+    },
+    "systemInfo": {
+      "sourceSystem": "Lorem ipsum dolor sit amet, consectetur",
+      "destinationSystem": "CANOPI, ASAP"
+    },
+    "sla": {
+      "slaServiceResponseTime": "1s",
+      "serviceUpTime": "60s",
+      "others": "Lorem"
+    },
+    "relatedDocs": [{
+      "reuseDetails": "Lorem Ipsum",
+      "sampleUseCase": "Dolor Sit",
+      "testInformation": "Amet consectetur"
+    }]
+  }
