@@ -1,14 +1,16 @@
 'use strict';
 
 module.exports = function(app) {
-    var bodyParser = require('body-parser');
+    const bodyParser = require('body-parser'),
+          cookieParser = require('cookie-parser');
 
+
+    app.use(cookieParser());
     app.use(bodyParser.urlencoded({ extended: false }));
     app.use(bodyParser.json());
-    
-    require('./routes/index')(app);
 
-    app.get('/', (req, res) => {
-        res.send('Hello world');
-    })
+    const admin = require('./routes/admin'),
+          user = require('./routes/user');
+    app.use('/admin', admin);
+    app.use('/user', user);
 }
