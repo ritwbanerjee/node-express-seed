@@ -4,7 +4,7 @@ WORKDIR /opt/app
 
 ENV PORT=80
 
-# RUN touch /usr/bin/start.sh # this is the script which will run on start
+RUN touch /usr/bin/start.sh # this is the script which will run on start
 
 # if you need a build script, uncomment the line below
 # RUN echo 'sh mybuild.sh' >> /usr/bin/start.sh
@@ -20,4 +20,4 @@ ENV PORT=80
 RUN echo 'npm install --production' >> /usr/bin/start.sh
 
 # npm start, make sure to have a start attribute in "scripts" in package.json
-# RUN echo 'npm start' >> /usr/bin/start.sh
+RUN echo 'npm start' >> /usr/bin/start.sh
